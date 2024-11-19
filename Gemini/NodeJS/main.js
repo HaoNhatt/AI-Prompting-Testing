@@ -66,6 +66,7 @@ async function runPrompt(templateName, userInput) {
     const prompt = generatePrompt(templateName, userInput);
 
     console.log(prompt)
+    // console.log(allTemplates)
 
     try {
         const chatSession = model.startChat({
